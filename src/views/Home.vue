@@ -1,13 +1,15 @@
 <template>
   <div class="container">
-    <!-- <div> -->
-    <h1>Home</h1>
-    <!-- </div> -->
+    <Hero />
   </div>
 </template>
 
 <script>
+import Hero from "../components/Hero";
 export default {
   name: "Home",
+  components: {
+    Hero,
+  },
 };
 </script>
