@@ -1,0 +1,8 @@
+#app {
+    font-family: "Quicksand", sans-serif;
+}
+
+.router-link-exact-active {
+    font-weight: bold;
+    border-bottom: solid 2px #68b0ab;
+}
