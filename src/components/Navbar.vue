@@ -16,7 +16,8 @@
           <b-navbar-nav class="ml-auto">
             <b-nav-item router-link to="/keranjang">
               Keranjang
-              <b-icon-bag-check></b-icon-bag-check>
+              <b-icon-bag-check></b-icon-bag-check>&nbsp;
+              <b-badge variant="info">0</b-badge>
             </b-nav-item>
           </b-navbar-nav>
         </b-collapse>
