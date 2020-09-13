@@ -1,17 +1,17 @@
 <template>
-  <footer class="mt-5 mb-5">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <strong>Kuliner, Makassar. &copy; 2020</strong>
+    <footer class="mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <strong>Kuliner, Makassar. &copy; 2020</strong>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </template>
 
 <script>
 export default {
-  name: "Footer",
+    name: "Footer",
 };
 </script>

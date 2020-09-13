@@ -8,12 +8,12 @@ Vue.use(VueRouter);
 
 const routes = [
     { path: "/", component: Home },
-    { path: "/foods", component: Foods },
+    { path: "/foods", component: Foods }
 ];
 
 const router = new VueRouter({
     routes,
-    mode: "history",
+    mode: "history"
 });
 
 export default router;
