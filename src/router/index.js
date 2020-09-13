@@ -8,7 +8,8 @@ Vue.use(VueRouter);
 
 const routes = [
     { path: "/", component: Home },
-    { path: "/foods", component: Foods }
+    { path: "/foods", component: Foods },
+    { path: "/food/:id", component: () => import("../views/FoodDetail.vue") }
 ];
 
 const router = new VueRouter({
