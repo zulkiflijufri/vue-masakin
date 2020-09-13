@@ -35,7 +35,7 @@
             "kode": "K-02",
             "nama": "Nasi Goreng Telur",
             "harga": 15000,
-            "gambar": "https://www.masakapahariini.com/wp-content/uploads/2019/01/nasi-goreng-spesial-780x440.jpg"
+            "gambar": "https://i2.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Nasi-Goreng-Ikan-Teri.jpg?fit=1300%2C975&ssl=1"
         },
         {
             "id": 3,
@@ -61,34 +61,27 @@
         {
             "id": 6,
             "kode": "K-06",
-            "nama": "Mie Pangsit",
-            "harga": 15000,
-            "gambar": "https://cdns.klimg.com/merdeka.com/i/w/news/2020/05/19/1178581/540x270/cara-membuat-mie-pangsit-sederhana-yang-enak-mudah-dilakukan.jpg"
-        },
-        {
-            "id": 7,
-            "kode": "K-07",
             "nama": "Nasi Remes",
             "harga": 20000,
             "gambar": "https://s3.ap-southeast-1.amazonaws.com/magazine.job-like.com/magazine/wp-content/uploads/2019/04/17231340/212-2.jpg"
         },
         {
-            "id": 8,
-            "kode": "K-08",
+            "id": 7,
+            "kode": "K-07",
             "nama": "Kentang Goreng",
             "harga": 5000,
             "gambar": "https://awsimages.detik.net.id/community/media/visual/2018/07/06/c77f4f72-68e2-4d59-8b40-79bbde71863c.jpeg?a=1"
         },
         {
-            "id": 9,
-            "kode": "K-09",
+            "id": 8,
+            "kode": "K-08",
             "nama": "Lontong Opor Ayam",
             "harga": 25000,
             "gambar": "https://res.cloudinary.com/kamilsolah/image/upload/f_auto,q_auto/v1588107984/Lontong-Opor-Ayam.jpg"
         },
         {
-            "id": 10,
-            "kode": "K-010",
+            "id": 9,
+            "kode": "K-09",
             "nama": "Bakwan",
             "harga": 5000,
             "gambar": "https://keeprecipes.com/sites/keeprecipes/files/imagecache/recipe_large/9445707A-E426-48ED-98C3-B8515DB121A4.jpg"
