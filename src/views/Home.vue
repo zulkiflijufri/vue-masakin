@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <Hero />
     <div class="container">
-      <div class="row">
+      <Hero />
+      <div class="row ml-1">
         <div class="col">
           <h2>
             Best
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="row mt-1 mb-5">
-        <div class="col-md-4" v-for="product in products" :key="product.id">
+        <div class="col-md-4 mt-4" v-for="product in products" :key="product.id">
           <CardProduct :product="product" />
         </div>
       </div>
