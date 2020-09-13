@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div v-else class="container">
             <div class="row">
                 <div class="col">
                     <h4 class="text-center mt-5">Server local off, please actived your server.</h4>

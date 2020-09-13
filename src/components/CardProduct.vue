@@ -5,8 +5,8 @@
         <b-card-text>{{ product.nama }}</b-card-text>
         <b-card-text>Harga Rp. {{ product.harga }}</b-card-text>
 
-        <b-button to="/keranjang" variant="info">
-          <b-icon-cart-check></b-icon-cart-check>&nbsp;Tambah ke keranjang
+        <b-button :to="'/food/'+product.id" variant="info" p-4>
+          <b-icon-cart-check></b-icon-cart-check>&nbsp;Order
         </b-button>
       </b-card>
     </div>
