@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="container">
+    <div v-if="products.length > 0" class="container">
       <Hero />
       <div class="row ml-1">
         <div class="col">
@@ -13,6 +13,13 @@
       <div class="row mt-1 mb-5">
         <div class="col-md-4 mt-4" v-for="product in products" :key="product.id">
           <CardProduct :product="product" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4 class="text-center mt-5">Server local off, please actived your server.</h4>
         </div>
       </div>
     </div>
