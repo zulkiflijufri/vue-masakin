@@ -1,92 +1,92 @@
 {
-    "best_products": [
-        {
-            "id": 1,
-            "kode": "K-01",
-            "nama": "Sate Ayam",
-            "harga": 20000,
-            "gambar": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sate_Ponorogo.jpg"
-        },
-        {
-            "id": 2,
-            "kode": "K-02",
-            "nama": "Nasi Goreng Telur",
-            "harga": 15000,
-            "gambar": "https://i2.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Nasi-Goreng-Ikan-Teri.jpg?fit=1300%2C975&ssl=1"
-        },
-        {
-            "id": 3,
-            "kode": "K-03",
-            "nama": "Ayam Bakar",
-            "harga": 25000,
-            "gambar": "https://selerasa.com/wp-content/uploads/2015/12/images_daging_ayam-bakar-kalasan.jpg"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "kode": "K-01",
-            "nama": "Sate Ayam",
-            "harga": 20000,
-            "gambar": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sate_Ponorogo.jpg"
-        },
-        {
-            "id": 2,
-            "kode": "K-02",
-            "nama": "Nasi Goreng Telur",
-            "harga": 15000,
-            "gambar": "https://i2.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Nasi-Goreng-Ikan-Teri.jpg?fit=1300%2C975&ssl=1"
-        },
-        {
-            "id": 3,
-            "kode": "K-03",
-            "nama": "Ayam Bakar",
-            "harga": 25000,
-            "gambar": "https://selerasa.com/wp-content/uploads/2015/12/images_daging_ayam-bakar-kalasan.jpg"
-        },
-        {
-            "id": 4,
-            "kode": "K-04",
-            "nama": "Mie Ayam Bakso",
-            "harga": 10000,
-            "gambar": "https://awsimages.detik.net.id/community/media/visual/2017/07/13/403fe3ce-f18d-4730-8a4b-18252c321724.jpg?w=700&q=90"
-        },
-        {
-            "id": 5,
-            "kode": "K-05",
-            "nama": "Mie Goreng",
-            "harga": 10000,
-            "gambar": "https://kbu-cdn.com/dk/wp-content/uploads/mie-goreng-saus-tiram.jpg"
-        },
-        {
-            "id": 6,
-            "kode": "K-06",
-            "nama": "Nasi Remes",
-            "harga": 20000,
-            "gambar": "https://s3.ap-southeast-1.amazonaws.com/magazine.job-like.com/magazine/wp-content/uploads/2019/04/17231340/212-2.jpg"
-        },
-        {
-            "id": 7,
-            "kode": "K-07",
-            "nama": "Kentang Goreng",
-            "harga": 5000,
-            "gambar": "https://awsimages.detik.net.id/community/media/visual/2018/07/06/c77f4f72-68e2-4d59-8b40-79bbde71863c.jpeg?a=1"
-        },
-        {
-            "id": 8,
-            "kode": "K-08",
-            "nama": "Lontong Opor Ayam",
-            "harga": 25000,
-            "gambar": "https://res.cloudinary.com/kamilsolah/image/upload/f_auto,q_auto/v1588107984/Lontong-Opor-Ayam.jpg"
-        },
-        {
-            "id": 9,
-            "kode": "K-09",
-            "nama": "Bakwan",
-            "harga": 5000,
-            "gambar": "https://keeprecipes.com/sites/keeprecipes/files/imagecache/recipe_large/9445707A-E426-48ED-98C3-B8515DB121A4.jpg"
-        }
-    ],
-    "keranjangs": [],
-    "pesanans": []
+  "best_products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Sate Ayam",
+      "harga": 20000,
+      "gambar": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sate_Ponorogo.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Nasi Goreng Telur",
+      "harga": 15000,
+      "gambar": "https://i2.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Nasi-Goreng-Ikan-Teri.jpg?fit=1300%2C975&ssl=1"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Ayam Bakar",
+      "harga": 25000,
+      "gambar": "https://selerasa.com/wp-content/uploads/2015/12/images_daging_ayam-bakar-kalasan.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Sate Ayam",
+      "harga": 20000,
+      "gambar": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sate_Ponorogo.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Nasi Goreng Telur",
+      "harga": 15000,
+      "gambar": "https://i2.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Nasi-Goreng-Ikan-Teri.jpg?fit=1300%2C975&ssl=1"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Ayam Bakar",
+      "harga": 25000,
+      "gambar": "https://selerasa.com/wp-content/uploads/2015/12/images_daging_ayam-bakar-kalasan.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Mie Ayam Bakso",
+      "harga": 10000,
+      "gambar": "https://awsimages.detik.net.id/community/media/visual/2017/07/13/403fe3ce-f18d-4730-8a4b-18252c321724.jpg?w=700&q=90"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Mie Goreng",
+      "harga": 10000,
+      "gambar": "https://kbu-cdn.com/dk/wp-content/uploads/mie-goreng-saus-tiram.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Nasi Remes",
+      "harga": 20000,
+      "gambar": "https://s3.ap-southeast-1.amazonaws.com/magazine.job-like.com/magazine/wp-content/uploads/2019/04/17231340/212-2.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Kentang Goreng",
+      "harga": 5000,
+      "gambar": "https://awsimages.detik.net.id/community/media/visual/2018/07/06/c77f4f72-68e2-4d59-8b40-79bbde71863c.jpeg?a=1"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Lontong Opor Ayam",
+      "harga": 25000,
+      "gambar": "https://res.cloudinary.com/kamilsolah/image/upload/f_auto,q_auto/v1588107984/Lontong-Opor-Ayam.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Bakwan",
+      "harga": 5000,
+      "gambar": "https://keeprecipes.com/sites/keeprecipes/files/imagecache/recipe_large/9445707A-E426-48ED-98C3-B8515DB121A4.jpg"
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": []
 }
