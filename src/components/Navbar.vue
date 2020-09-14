@@ -17,7 +17,7 @@
                         <b-nav-item router-link to="/keranjang">
                             Keranjang
                             <b-icon-bag-check></b-icon-bag-check>&nbsp;
-                            <b-badge variant="info">0</b-badge>
+                            <b-badge variant="info">{{ orders.length > 0 ? orders.length : 0}}</b-badge>
                         </b-nav-item>
                     </b-navbar-nav>
                 </b-collapse>
@@ -27,7 +27,22 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
     name: "Navbar",
+    data() {
+        return {
+            orders: [],
+        };
+    },
+    created() {
+        axios
+            .get("http://localhost:3000/keranjangs")
+            .then((res) => {
+                this.orders = res.data;
+            })
+            .catch((err) => console.log(err));
+    },
 };
 </script>
