@@ -95,7 +95,7 @@ export default {
     },
     created() {
         axios
-            .get("http://localhost:3000/products/" + this.$route.params.id)
+            .get("/products/" + this.$route.params.id)
             .then((res) => {
                 this.product = res.data;
             })

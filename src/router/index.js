@@ -3,8 +3,11 @@ import VueRouter from "vue-router";
 
 import Home from "../views/Home";
 import Foods from "../views/Foods";
+import axios from "axios";
 
 Vue.use(VueRouter);
+
+axios.defaults.baseURL = "http://localhost:3000/";
 
 const routes = [
     { path: "/", component: Home },

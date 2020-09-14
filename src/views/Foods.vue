@@ -50,7 +50,7 @@ export default {
     methods: {
         searchFood() {
             axios
-                .get("http://localhost:3000/products?q=" + this.search)
+                .get("/products?q=" + this.search)
                 .then((res) => {
                     this.products = res.data;
                 })
