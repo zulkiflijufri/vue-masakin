@@ -11,13 +11,13 @@
                 <h4 class="text-center">Price: Rp. {{ product.harga }}</h4>
                 <br />
                 <div class="form-order">
-                    <b-form-group label-cols="4" label-cols-lg="2" label="Kode" label-for="input-sm">
-                        <b-form-input
-                            id="input-sm"
-                            size="sm"
-                            disabled
-                            :value="product.kode"
-                        ></b-form-input>
+                    <b-form-group
+                        label-cols="4"
+                        label-cols-lg="2"
+                        label="Kode"
+                        label-for="input-sm"
+                    >
+                        <b-form-input id="input-sm" size="sm" disabled :value="product.kode"></b-form-input>
                     </b-form-group>
                     <b-form-group label-cols="4" label-cols-lg="2" label="Qty" label-for="input-sm">
                         <b-form-input
@@ -77,7 +77,7 @@ export default {
         Order() {
             this.order.products = this.product;
             axios
-                .post("http://localhost:3000/keranjangs/", this.order)
+                .post("/keranjangs/", this.order)
                 .then(() => {
                     this.$toast.open({
                         type: "success",
@@ -85,6 +85,8 @@ export default {
                         duration: 3000,
                         message: "Food successfully to order.",
                     });
+
+                    this.$router.push("/orders");
                 })
                 .catch((err) => console.log(err));
         },
