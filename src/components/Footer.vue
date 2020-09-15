@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <strong>Kuliner, Makassar. &copy; 2020</strong>
+                    <span>Kuliner, Makassar. &copy; 2020</span>
                 </div>
             </div>
         </div>
