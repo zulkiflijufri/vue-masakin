@@ -12,7 +12,8 @@ axios.defaults.baseURL = "http://localhost:3000/";
 const routes = [
     { path: "/", component: Home },
     { path: "/foods", component: Foods },
-    { path: "/food/:id", component: () => import("../views/FoodDetail.vue") }
+    { path: "/food/:id", component: () => import("../views/FoodDetail.vue") },
+    { path: "/orders", component: () => import("../views/Orders.vue") }
 ];
 
 const router = new VueRouter({
