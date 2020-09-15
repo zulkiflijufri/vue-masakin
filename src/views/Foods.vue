@@ -59,7 +59,7 @@ export default {
     },
     created() {
         axios
-            .get("http://localhost:3000/products")
+            .get("/products")
             .then((res) => {
                 this.products = res.data;
             })
