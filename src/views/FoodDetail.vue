@@ -7,13 +7,18 @@
             <div class="col-md-6">
                 <h3 class="text-center">Detail Food</h3>
                 <br />
-                <h4>Kode: {{ product.kode}}</h4>
-                <br />
-                <h4>Name: {{ product.nama}}</h4>
-                <br />
-                <h4>Price: Rp. {{ product.harga }}</h4>
+                <h4 class="text-center mb-3">Name: {{ product.nama}}</h4>
+                <h4 class="text-center">Price: Rp. {{ product.harga }}</h4>
                 <br />
                 <div class="form-order">
+                    <b-form-group label-cols="4" label-cols-lg="2" label="Kode" label-for="input-sm">
+                        <b-form-input
+                            id="input-sm"
+                            size="sm"
+                            disabled
+                            :value="product.kode"
+                        ></b-form-input>
+                    </b-form-group>
                     <b-form-group label-cols="4" label-cols-lg="2" label="Qty" label-for="input-sm">
                         <b-form-input
                             id="input-sm"
@@ -84,7 +89,7 @@ export default {
                 .catch((err) => console.log(err));
         },
         cekQty() {
-            if (this.order.qty !== "") {
+            if (this.order.qty !== "" && this.order.qty > 0) {
                 this.btnOpacity = "1";
                 this.btnPointerEvents = "";
             } else {
