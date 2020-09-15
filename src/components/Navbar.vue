@@ -8,16 +8,16 @@
 
                 <b-collapse id="nav-collapse" is-nav>
                     <b-navbar-nav>
-                        <b-nav-item router-link to="/">Home</b-nav-item>
+                        <b-nav-item router-link to="/" exact>Home</b-nav-item>
                         <b-nav-item router-link to="/foods">Foods</b-nav-item>
                     </b-navbar-nav>
 
                     <!-- Right aligned nav items -->
                     <b-navbar-nav class="ml-auto">
-                        <b-nav-item router-link to="/keranjang">
-                            Keranjang
+                        <b-nav-item router-link to="/orders" @click="cekOrders">
+                            Orders
                             <b-icon-bag-check></b-icon-bag-check>&nbsp;
-                            <b-badge variant="info">{{ orders.length > 0 ? orders.length : 0}}</b-badge>
+                            <b-badge variant="info">{{ orders.length > 0 ? order.length : 0}}</b-badge>
                         </b-nav-item>
                     </b-navbar-nav>
                 </b-collapse>
@@ -36,9 +36,23 @@ export default {
             orders: [],
         };
     },
+    methods: {
+        cekOrders() {
+            if (!this.orders.length > 0) {
+                this.$toast.open({
+                    type: "warning",
+                    position: "top",
+                    duration: 3000,
+                    message: "Sorry, order not avaliable.",
+                });
+                // redirect
+                this.$router.push("/");
+            }
+        },
+    },
     created() {
         axios
-            .get("http://localhost:3000/keranjangs")
+            .get("/keranjangs")
             .then((res) => {
                 this.orders = res.data;
             })
