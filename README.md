@@ -1,4 +1,7 @@
-# Masakin
+<p align="center">
+    <h1 align="center">Masakin App</h1>
+    <br>
+</p>
 
 ## Cara pakainya gimana?
 1. Clone project
