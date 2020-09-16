@@ -3,7 +3,7 @@
     <br>
 </p>
 
-## Cara pakainya gimana?
+## Awalan untuk memulai
 1. Clone project
 ```
 git clone https://github.com/zulkiflijufri/vue-masakin.git
