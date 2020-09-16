@@ -14,16 +14,19 @@ npm install
 npm run serve
 ```
 
-Mungkin setelah dijalankan dan membuka ``http://localhost:8080/`` akan menampilkan pesan, ya ``Server local off, please actived your server.`` Tenang saja, itu hanya pesan biasa. Aplikasi ini menggunakan ``dummy API`` dari [JSONPlaceholder](https://jsonplaceholder.typicode.com/). Oleh karena itu alangkah baiknya untuk menginstall ``json server`` agar API kita dapat dijalankan di localhost. Caranya sangat mudah, cukup jalankan perintah:
+Mungkin setelah dijalankan dan membuka ``http://localhost:8080/`` akan menampilkan pesan:
+
+> Server local off, please actived your server.
+
+Tenang saja, itu hanya pesan biasa. Aplikasi ini menggunakan ``dummy API`` dari [JSONPlaceholder](https://jsonplaceholder.typicode.com/). Ohiya file json project ini, dapat anda temukan didalam folder ``/backend``. Untuk menjalankan file json tersebut, alangkah baiknya untuk menginstall ``json server`` agar API kita dapat berjalan dengan lancar. Caranya cukup mudah:
+1. Install json-server
 ```
 npm install -g json-server
 ```
-Jalankan ``json-server``
+2. Masuk ke folder ``/backend`` untuk menjalankan file ``db.json``
 ```
 json-server --watch db.json
 ```
-
-Ohiya, perintah diatas akan mengeksekusi file ``db.json``, anda dapat melihat didalam folder ``/backend``, anda juga dapat memodifikasi sesuai dengan kebutuhan anda. Mengenai ``dummy API``, dapat anda kunjungi [JSON Server](https://github.com/typicode/json-server).
 
 Jika anda kesulitan memahami code dalam project ini, anda dapat melihat penjelasan lebih detail di [Wahidev Academy](https://www.youtube.com/watch?v=XoDGI5JaPvw&list=PLIan8aHxsPj3a7oLHb2a8pw8IHBq45WYu)
 
