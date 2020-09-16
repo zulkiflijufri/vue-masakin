@@ -1,5 +1,6 @@
 <template>
     <div class="home">
+        <Navbar />
         <div v-if="products.length > 0" class="container">
             <Hero />
             <div class="row ml-1">
@@ -23,12 +24,15 @@
                 </div>
             </div>
         </div>
+        <Footer />
     </div>
 </template>
 
 <script>
 import Hero from "../components/Hero";
 import CardProduct from "../components/CardProduct";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import axios from "axios";
 
 export default {
@@ -36,6 +40,8 @@ export default {
     components: {
         Hero,
         CardProduct,
+        Navbar,
+        Footer
     },
     data() {
         return {

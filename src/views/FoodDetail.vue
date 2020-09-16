@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <Navbar />
         <div class="row mt-5 ml-1">
             <div class="col-md-6">
                 <img :src="product.gambar" class="rounded shadow" width="100%" />
@@ -56,10 +57,13 @@
                 </div>
             </div>
         </div>
+        <Footer />
     </div>
 </template>
 <script>
 import axios from "axios";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default {
     data() {
@@ -72,6 +76,10 @@ export default {
             btnOpacity: "0.4",
             btnPointerEvents: "none",
         };
+    },
+    components: {
+        Navbar,
+        Footer
     },
     methods: {
         Order() {

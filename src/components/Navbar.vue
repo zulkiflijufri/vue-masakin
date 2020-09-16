@@ -2,7 +2,7 @@
     <div class="container">
         <div>
             <b-navbar toggleable="lg">
-                <b-navbar-brand href="#">Kuliner</b-navbar-brand>
+                <b-navbar-brand href="#">Masakin</b-navbar-brand>
 
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -17,7 +17,9 @@
                         <b-nav-item router-link to="/orders" @click="cekOrders">
                             Orders
                             <b-icon-bag-check></b-icon-bag-check>&nbsp;
-                            <b-badge variant="info">{{ orders.length > 0 ? order.length : 0}}</b-badge>
+                            <b-badge
+                                variant="info"
+                            >{{ countOrders ? countOrders.length : orders.length }}</b-badge>
                         </b-nav-item>
                     </b-navbar-nav>
                 </b-collapse>
@@ -31,6 +33,7 @@ import axios from "axios";
 
 export default {
     name: "Navbar",
+    props: ["countOrders"],
     data() {
         return {
             orders: [],

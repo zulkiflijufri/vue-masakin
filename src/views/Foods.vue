@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <Navbar />
         <div class="row ml-1 mt-5">
             <div class="col-md-6">
                 <h2>
@@ -29,17 +30,22 @@
                 <strong>Not Found</strong>
             </h3>
         </div>
+        <Footer />
     </div>
 </template>
 
 <script>
 import CardProduct from "../components/CardProduct";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import axios from "axios";
 
 export default {
     name: "Foods",
     components: {
         CardProduct,
+        Navbar,
+        Footer,
     },
     data() {
         return {
