@@ -87,32 +87,7 @@
       "gambar": "https://keeprecipes.com/sites/keeprecipes/files/imagecache/recipe_large/9445707A-E426-48ED-98C3-B8515DB121A4.jpg"
     }
   ],
-  "keranjangs": [
-    {
-      "qty": "10",
-      "information": "COOL",
-      "products": {
-        "id": 3,
-        "kode": "K-03",
-        "nama": "Ayam Bakar",
-        "harga": 25000,
-        "gambar": "https://selerasa.com/wp-content/uploads/2015/12/images_daging_ayam-bakar-kalasan.jpg"
-      },
-      "id": 1
-    },
-    {
-      "qty": "7",
-      "information": "HOT",
-      "products": {
-        "id": 7,
-        "kode": "K-07",
-        "nama": "Kentang Goreng",
-        "harga": 5000,
-        "gambar": "https://awsimages.detik.net.id/community/media/visual/2018/07/06/c77f4f72-68e2-4d59-8b40-79bbde71863c.jpeg?a=1"
-      },
-      "id": 2
-    }
-  ],
+  "keranjangs": [],
   "pesanans": [
     {
       "name": "zulkifli ",
