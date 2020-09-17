@@ -7,7 +7,7 @@ import axios from "axios";
 
 Vue.use(VueRouter);
 
-axios.defaults.baseURL = "http://localhost:3000/";
+axios.defaults.baseURL = "https://json-server-masakin.herokuapp.com/";
 
 const routes = [
     { path: "/", component: Home },
