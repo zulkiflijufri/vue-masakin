@@ -1,9 +1,12 @@
-# Masakin
+<p align="center">
+    <h1 align="center">Masakin App</h1>
+    <br>
+</p>
 
-## Cara pakainya gimana?
+## Awalan untuk memulai
 1. Clone project
 ```
-git clone https://github.com/zulkiflijufri/vue-kuliner.git
+git clone https://github.com/zulkiflijufri/vue-masakin.git
 ```
 2. Masuk ke dalam project dan install dependencies
 ```
