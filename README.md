@@ -18,9 +18,9 @@ npm run serve
 ```
 
 ## API
-<https://json-server-masakin.herokuapp.com/best_products>
-<https://json-server-masakin.herokuapp.com/products>
-<https://json-server-masakin.herokuapp.com/keranjangs>
+<https://json-server-masakin.herokuapp.com/best_products> <br>
+<https://json-server-masakin.herokuapp.com/products> <br>
+<https://json-server-masakin.herokuapp.com/keranjangs> <br>
 <https://json-server-masakin.herokuapp.com/pesanans>
 
 ---
