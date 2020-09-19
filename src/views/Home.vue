@@ -20,7 +20,7 @@
         <div v-else class="container">
             <div class="row">
                 <div class="col">
-                    <h4 class="text-center mt-5">Server local off, please actived your server.</h4>
+                    <h4 class="text-center mt-5">Loading . . .</h4>
                 </div>
             </div>
         </div>

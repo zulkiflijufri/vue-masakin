@@ -17,6 +17,13 @@ npm install
 npm run serve
 ```
 
+## API
+<https://json-server-masakin.herokuapp.com/best_products>
+<https://json-server-masakin.herokuapp.com/products>
+<https://json-server-masakin.herokuapp.com/keranjangs>
+<https://json-server-masakin.herokuapp.com/pesanans>
+
+---
 Jika anda kesulitan memahami code dalam project ini, anda dapat melihat penjelasan lebih detail di [Wahidev Academy](https://www.youtube.com/watch?v=XoDGI5JaPvw&list=PLIan8aHxsPj3a7oLHb2a8pw8IHBq45WYu)
 
 Oke Guys. Keep Learning   :rocket:
