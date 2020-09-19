@@ -3,7 +3,7 @@
         <Navbar />
         <div class="row justify-content-center mb-5 mt-5">
             <div class="col text-center">
-                <img src="../assets/img/success.png" width="65%" class="mb-5">
+                <img src="../assets/img/success.png" width="100%" class="mb-5">
             </div>
         </div>
         <Footer />
