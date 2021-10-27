@@ -1,18 +1,20 @@
-<p align="center">
-    <h1 align="center">Masakin App</h1>
-    <br>
-</p>
+# Masakin App
+This project is my learning process about Vuejs
 
-## Awalan untuk memulai
+## Get Started
 1. Clone project
 ```
 git clone https://github.com/zulkiflijufri/vue-masakin.git
 ```
-2. Masuk ke dalam project dan install dependencies
+2. Enter into the project
+```
+cd /vue-masakin
+```
+3. Install dependencies
 ```
 npm install
 ```
-3. Jalankan
+4. Run
 ```
 npm run serve
 ```
@@ -23,7 +25,4 @@ npm run serve
 <https://json-server-masakin.herokuapp.com/keranjangs> <br>
 <https://json-server-masakin.herokuapp.com/pesanans>
 
----
-Jika anda kesulitan memahami code dalam project ini, anda dapat melihat penjelasan lebih detail di [Wahidev Academy](https://www.youtube.com/watch?v=XoDGI5JaPvw&list=PLIan8aHxsPj3a7oLHb2a8pw8IHBq45WYu)
-
-Oke Guys. Keep Learning   :rocket:
+Thanks to [Wahidev Academy](https://www.youtube.com/watch?v=XoDGI5JaPvw&list=PLIan8aHxsPj3a7oLHb2a8pw8IHBq45WYu)
